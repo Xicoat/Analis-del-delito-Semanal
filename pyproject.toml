@@ -1,0 +1,24 @@
+[project]
+name = "analisis-delitos"
+version = "0.1.0"
+description = "Investigación de series delictivas mediante redes de visibilidad"
+requires-python = ">=3.12"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "networkx",
+    "matplotlib",
+    "plotly",
+    "openpyxl",
+    "powerlaw",
+    "scipy",
+]
+
+[project.optional-dependencies]
+notebooks = [
+    "jupyterlab",
+    "ipykernel",
+    "ipywidgets",
+    "ipython",
+]
